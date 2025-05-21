@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Exercises>
+
+  <!-- Exercice 1 -->
+  <Exercice1>
+    <Person number="1">
+      <Firstname>John</Firstname>
+      <Lastname>Smith</Lastname>
+      <Birthday>19650302</Birthday>
+      <Company>IBM</Company>
+      <Position>CEO</Position>
+      <Email>jsmith@ibm.com</Email>
+      <Address type="home">
+        <Street>23 Main St</Street>
+        <City>Dublin</City>
+        <Postcode>22000</Postcode>
+        <Country/>
+      </Address>
+      <Address type="work">
+        <Street>1234 High St</Street>
+        <City>Boston</City>
+        <Country>Ireland</Country>
+      </Address>
+    </Person>
+    <Person number="2">
+      <Firstname>Tom</Firstname>
+      <Lastname>Dunne</Lastname>
+      <Company>Today FM</Company>
+      <Position/>
+      <Email>tom.dunne@todayfm.com</Email>
+    </Person>
+  </Exercice1>
+
+  <!-- Exercice 2 -->
+  <Exercice2>
+    <Maghreb>
+      <Pays nom="Algérie">
+        <Capitale>Alger</Capitale>
+        <Population annee="2023">46002849</Population>
+      </Pays>
+      <Pays nom="Tunisie">
+        <Capitale>Tunis</Capitale>
+        <Population annee="2022">11803588</Population>
+      </Pays>
+      <Pays nom="Maroc">
+        <Capitale>Rabat</Capitale>
+        <Population annee="2021">36910558</Population>
+      </Pays>
+    </Maghreb>
+  </Exercice2>
+
+  <!-- Exercice 3 -->
+  <Exercice3>
+    <Menu>
+      <Jour nom="Dimanche">
+        <Entree>Salade verte</Entree>
+        <Viande>Poulet</Viande>
+        <Accompagnement>Frites</Accompagnement>
+        <Dessert>Orange</Dessert>
+      </Jour>
+      <Jour nom="Lundi">
+        <Entree>Pâté</Entree>
+        <Viande>Lapin</Viande>
+        <Accompagnement>Pâtes</Accompagnement>
+        <Dessert>Tarte citron</Dessert>
+      </Jour>
+      <Jour nom="Mardi">
+        <Entree>Salade variée</Entree>
+        <Viande>Poulet</Viande>
+        <Accompagnement>Frites</Accompagnement>
+        <Dessert>Banane</Dessert>
+      </Jour>
+      <Jour nom="Mercredi">
+        <Entree>Pirojki</Entree>
+        <Viande>Poisson</Viande>
+        <Accompagnement>Riz</Accompagnement>
+        <Dessert>Pomme</Dessert>
+      </Jour>
+      <Jour nom="Jeudi">
+        <Entree>Pizza</Entree>
+        <Viande>Omelette</Viande>
+        <Accompagnement>Haricots verts</Accompagnement>
+        <Dessert>Crème brûlée</Dessert>
+      </Jour>
+      <Jour nom="Vendredi">
+        <Entree>Taboulé</Entree>
+        <Plat_unique>Couscous</Plat_unique>
+        <Dessert>Loukoums</Dessert>
+      </Jour>
+      <Jour nom="Samedi">
+        <Entree>Salade verte</Entree>
+        <Viande>Veau</Viande>
+        <Accompagnement>Courgette</Accompagnement>
+        <Dessert>Banane</Dessert>
+      </Jour>
+    </Menu>
+  </Exercice3>
+
+  <!-- Exercice 4 -->
+  <Exercice4>
+    <Eleve matricule="E01">
+      <Nom>Ali Benmohamed</Nom>
+      <Naissance date="2004-12-13" lieu="Constantine"/>
+      <Section>A</Section>
+      <Groupe>08</Groupe>
+      <Adresse>7 Rue Pasteur, 22016, Sidi Bel Abbes</Adresse>
+      <Bulletin>
+        <Trimestre numero="1">
+          <Francais>12</Francais>
+          <Histoire>14</Histoire>
+          <Math>9</Math>
+          <Physique>6</Physique>
+          <Dessin>14</Dessin>
+        </Trimestre>
+        <Trimestre numero="2">
+          <Francais>9</Francais>
+          <Histoire>17</Histoire>
+          <Math>7</Math>
+          <Physique>9</Physique>
+          <Dessin>12</Dessin>
+        </Trimestre>
+        <Trimestre numero="3">
+          <Francais>6</Francais>
+          <Histoire>9</Histoire>
+          <Math>4</Math>
+          <Physique>6</Physique>
+          <Dessin>13</Dessin>
+        </Trimestre>
+      </Bulletin>
+    </Eleve>
+  </Exercice4>
+
+  <!-- Exercice 5 -->
+  <Exercice5>
+    <CarnetAdresses>
+      <Personne>
+        <Nom>Durand</Nom>
+        <Prenom>Julie</Prenom>
+        <Genre>Femme</Genre>
+        <Adresse>
+          <Rue>15 rue Lafayette</Rue>
+          <CodePostal>75010</CodePostal>
+          <Ville>Paris</Ville>
+          <Pays>France</Pays>
+        </Adresse>
+        <TelephoneProfessionnel>+33 1 23 45 67 89</TelephoneProfessionnel>
+        <TelephonePersonnel>+33 6 12 34 56 78</TelephonePersonnel>
+        <EmailProfessionnel>julie.durand@entreprise.com</EmailProfessionnel>
+        <EmailPersonnel>julie.durand@gmail.com</EmailPersonnel>
+        <PagePerso>http://juliedurand.fr</PagePerso>
+      </Personne>
+      <Entreprise>
+        <Nom>InnovaTech</Nom>
+        <Adresse>
+          <Rue>50 avenue de l'Europe</Rue>
+          <CodePostal>31000</CodePostal>
+          <Ville>Toulouse</Ville>
+          <Pays>France</Pays>
+        </Adresse>
+        <TelephoneFixe>+33 5 67 89 01 23</TelephoneFixe>
+        <Fax>+33 5 67 89 01 24</Fax>
+        <Contact>
+          <Nom>Julie</Nom>
+          <Prenom>Durand</Prenom>
+        </Contact>
+        <EmailEntreprise>contact@innovatech.com</EmailEntreprise>
+        <SiteWeb>http://www.innovatech.com</SiteWeb>
+        <Salaries>
+          <PersonneRef>Julie Durand</PersonneRef>
+        </Salaries>
+      </Entreprise>
+    </CarnetAdresses>
+  </Exercice5>
+
+</Exercises>
